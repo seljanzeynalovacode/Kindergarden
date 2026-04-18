@@ -1,0 +1,183 @@
+#container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #6498ae;
+    padding: 20px;
+}
+header{
+    background-color: rgb(167, 198, 228);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#logo{
+    height: 90px;
+    width: 90px;
+    margin-top: 10px;
+
+}
+
+#img_logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+}   
+#search{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}   
+#search input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+#search button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}   
+
+#account{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#account button{
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+}   
+
+#nav_list{
+    margin-top: 20px;
+    background-color: rgb(167, 198, 228);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+   
+}
+
+nav ul li a:hover{
+    background-color: #555;
+    padding: 5px;
+    border-radius: 5px;
+}   
+
+#content{
+    margin-top: 20px;
+    display: flex;
+}   
+
+aside{
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: rgb(167, 198, 228);
+    padding: 20px;
+    flex: 1;
+}
+#sidebar{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+#sidebar h2{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: #333;
+}
+#sidebar ul li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+#sidebar ul li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+
+}
+main{
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: rgb(167, 198, 228);
+    padding: 20px;
+    flex: 3;
+}   
+article{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#kindergarden_img{
+    flex: 1;
+    height: auto;
+    border-radius: 10px;
+        float: left;
+}
+#kindergarden_img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#about_us{
+flex: 1;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+#teachers{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    justify-content:flex-start;
+
+}
+.teacher{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.teacher img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}   
